@@ -16,7 +16,6 @@ int main() {
 	cout << "숫자 입력(1이상): ";
 	cin >> n;
 
-
 	int ret = factorial(n);
 	if (ret == FACT_ERROR)
 		cout << "입력 오류" << endl;
